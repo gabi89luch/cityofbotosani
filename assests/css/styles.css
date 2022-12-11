@@ -1,3 +1,4 @@
+/* Contact form */
 #fcf-form {
     display:block;
 }
@@ -157,4 +158,15 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+/* Animate button */
+.btn-outline-danger{
+    background-color: #FF6B6B;
+    color: #212529;
+}
+.btn-outline-danger:hover {
+    box-shadow: 0 0 5px #fff,
+    0 0 30px #DF2E2E,
+    0 0 40px #DF2E2E,
+    0 0 50px #DF2E2E;
 }
